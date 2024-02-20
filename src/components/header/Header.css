@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+.heading-primary {
+  color: rgb(53, 48, 48);
+}
+
+.navbar-items {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+.navbar-item {
+  cursor: pointer;
+}
+
+.navbar-items li a {
+  color: rgb(97, 85, 85);
+  text-transform: capitalize;
+}
+
+.navbar .active {
+  font-size: 1.8rem;
+}

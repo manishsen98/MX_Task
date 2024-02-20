@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 5px;
+}
+
+@media (min-width: 540px) {
+  html {
+    font-size: 7px;
+  }
+}
+@media (min-width: 780px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (min-width: 900px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1400px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (min-width: 17500px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.paragraph {
+  width: 50%;
+  text-align: center;
+  font-size: 1.7rem;
+  color: grey;
+  font-family: sans-serif;
+}
+
+.trans {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.btn {
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  margin: 2rem;
+  border: none;
+  background-color: rgb(146, 109, 8);
+  text-transform: uppercase;
+}
